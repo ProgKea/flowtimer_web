@@ -24,6 +24,8 @@ class Timer {
         case State.break:
             this.work_start = new Date().getTime();
             this.state = State.work;
+            this.break_time_in_mil = 0;
+            this.iteration = 0;
             document.getElementById("button").innerHTML = "Take a break";
             break;
         case State.work:
