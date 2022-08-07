@@ -95,7 +95,7 @@ class Timer {
 
 (() => {
     timer = new Timer();
-    var intervalId = window.setInterval(function(){
+    window.setInterval(function(){
         timer.update();
     }, 1000);
 })()
