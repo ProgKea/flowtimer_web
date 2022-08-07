@@ -4,4 +4,4 @@ A simple web port of a [script](https://github.com/ProgKea/.ansible_dotfiles_ins
 
 I ported it to web so I am able to use this on machines that don't have bash.
 
-The site: https://progkea.github.io/flowtimer_web/
+The site is hosted here: https://progkea.github.io/flowtimer_web/
